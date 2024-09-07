@@ -1,0 +1,50 @@
+body {
+    background-color: grey; 
+    color: black; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+h1 {
+    color: purple; 
+    text-align: center; 
+}
+
+fieldset {
+    width: 50%; 
+    margin: 0 auto; 
+    border-radius: 20px; 
+    background-color: rgb(255, 255, 255); 
+    box-shadow: 5px 5px 5px gray; 
+    padding: 25px;
+}
+
+input, select, textarea {
+    border-radius: 4px; 
+    padding: 10px; 
+    margin: 6px 0; 
+}
+
+label {
+    font-weight: bold; 
+
+button.enviar {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button.limpar {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+}
